@@ -6,9 +6,9 @@
     font-family: 'Merriweather', serif;
 }
 
-body {
+/* body {
     width: 1600px;
-}
+} */
 
 /* Header Banner styles */
 
@@ -52,7 +52,7 @@ body {
 
 .deals {
     width: 50%;
-    margin: 0px auto;
+    margin: 0 auto;
 }
 
 .deals-container {
@@ -64,19 +64,19 @@ body {
     color: #FF0000;
     font-size: 85px;
     font-weight: 700;
-    font-family: inter;  
+    font-family: inter;
     padding-bottom: 45px;
 }
 
-.deal-holiday-text{
+.deal-holiday-text {
     color: #FF0000;
     font-size: 24px;
     font-weight: 500;
-    font-family: inter;  
+    font-family: inter;
     padding-bottom: 16px;
 }
 
-.deal-cate-text{
+.deal-cate-text {
     color: #070211;
     font-size: 48px;
     font-weight: 700;
@@ -84,8 +84,292 @@ body {
     padding-bottom: 45px;
 }
 
-.deal-new-img{
+.deal-new-img {
     width: 100%;
 }
 
 /* Party Section styles */
+
+.party {
+    width: 80%;
+    margin: 120px auto;
+}
+
+.party-container {
+    height: 600px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Vectorrr.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    padding: 0 10%;
+}
+
+.party-des {
+    width: 70%;
+    padding: 10% 0;
+}
+
+.party-heading {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 85px;
+    padding-bottom: 24px;
+
+}
+
+.party-texts {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: inter;
+    font-size: 18px;
+    padding-bottom: 40px;
+}
+
+.party-btn {
+    background-color: transparent;
+    outline: none;
+    color: #FFF;
+    padding: 12px 32px;
+    border: none;
+    font-size: 20px;
+    font-family: inter;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+.party-img-sec {
+    width: auto;
+    margin: auto 0px;
+    padding-left: 30px;
+}
+
+.party-img {
+    width: 100%;
+    /* mix-blend-mode:exclusion; */
+
+}
+
+/* address section styles  */
+
+
+.address-container {
+    border-radius: 16px;
+    width: 80%;
+    margin: 0px auto;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/* .address-colum {
+
+    width: auto;
+    margin: auto;
+
+} */
+
+.address-heading {
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    padding-bottom: 48px;
+}
+
+.add-color {
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.address-btn {
+    color: #FFF;
+    outline: none;
+    border: none;
+    color: #FFF;
+    padding: 12px 30px;
+    border-radius: 8px;
+    background: #F00;
+    font-size: 20px;
+}
+
+.btn-add {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Best offer section */
+
+.best-offer {
+    width: 80%;
+    margin: 120px auto;
+}
+
+.offer-container {
+
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.first-offer {
+    width: 30%;
+    margin-top: 80px;
+}
+
+.first-offer-heading {
+    color: #F00;
+    font-family: inter;
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 16px;
+}
+
+.first-offer-heading2 {
+    color: #070211;
+    font-size: 38px;
+    font-weight: 900;
+    padding-bottom: 22px;
+}
+
+.first-offer-para {
+    color: #6A6770;
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.sec-offer {
+    width: 450px;
+    height: 450px;
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.sec-offer-img {
+
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin: auto;
+    margin: auto auto;
+    background-image: url("../images/Ellipse\ 1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.third-offer {
+    width: 20%;
+    margin-top: 80px;
+
+}
+
+.third-offer-heading {
+    color: #F00;
+    font-family: inter;
+    font-size: 45px;
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+.third-offer-para {
+    color: #6A6770;
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 35px;
+}
+
+.third-offer-img {
+    width: 140px;
+}
+
+/* Holiday sale section */
+
+
+/* portfolio section */
+
+.portfolio-container {
+    width: 80%;
+    margin: 120px auto;
+}
+
+.portfolio-des {
+    width: 70%;
+}
+
+.portfolio-img-colum {
+    padding-top: 45px;
+    width: 100%;
+}
+
+.portfolio-colum {
+    display: flex;
+    gap: 22px;
+    padding-bottom: 22px;
+}
+
+.portfolio-img {
+    width: 32%;
+}
+
+/* Newsletter section styles */
+.newsletter-container {
+    width: 80%;
+    margin: 0 auto 120px;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
+    padding: 0 150px;
+
+}
+
+.news-img{
+    padding: 80px 0 40px;
+}
+
+.news-btn {
+    font-size: 20px;
+    padding: 24px 55px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    outline: none;
+    color: #FFF;
+}
+
+ .news-input{
+    padding: 24px 55px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #FFF;
+    color: rgba(81, 17, 210, 0.3);
+
+}
+
+.news-form{
+    padding: 72px 0px 104px;
+}
