@@ -1,21 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
 }
 
-body{
+body {
     width: 1600px;
 }
 
 /* Header Banner styles */
 
-.banner-container{
+.banner-container {
     width: 80%;
     height: 600px;
-    margin: 50px auto;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("../images/Banner\ Image.png");
+    margin: 50px auto 120px;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner\ Image.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -26,17 +27,18 @@ body{
 
 }
 
-.banner-text{
+.banner-text {
     text-align: center;
 }
 
-.banner-title{
+.banner-title {
     color: #FFF;
     font-size: 30px;
     padding-bottom: 16px;
     font-weight: 400;
 }
-.banner-heading{
+
+.banner-heading {
     font-size: 70px;
     font-weight: 900;
     line-height: 85px;
@@ -46,3 +48,44 @@ body{
 
 /* main Styles */
 
+/* Deals section styles */
+
+.deals {
+    width: 50%;
+    margin: 0px auto;
+}
+
+.deals-container {
+    text-align: center;
+
+}
+
+.deal-off-text {
+    color: #FF0000;
+    font-size: 85px;
+    font-weight: 700;
+    font-family: inter;  
+    padding-bottom: 45px;
+}
+
+.deal-holiday-text{
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: inter;  
+    padding-bottom: 16px;
+}
+
+.deal-cate-text{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: inter;
+    padding-bottom: 45px;
+}
+
+.deal-new-img{
+    width: 100%;
+}
+
+/* Party Section styles */
