@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+body{
+    width: 1600px;
+}
+
+/* Header Banner styles */
+
+.banner-container{
+    width: 80%;
+    height: 600px;
+    margin: 50px auto;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url("../images/Banner\ Image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.banner-text{
+    text-align: center;
+}
+
+.banner-title{
+    color: #FFF;
+    font-size: 30px;
+    padding-bottom: 16px;
+    font-weight: 400;
+}
+.banner-heading{
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 85px;
+    color: #FFF;
+
+}
+
+/* main Styles */
+
