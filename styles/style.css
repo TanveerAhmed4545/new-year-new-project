@@ -483,9 +483,10 @@
 }
 
 .footer-hr {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 0.01);
     height: 1px;
     margin: 50px 0;
+    opacity: 0.5;
 }
 
 .footer-section-third {
@@ -502,6 +503,10 @@
 
 .footer-section-second {
     text-align: center;
+}
+
+.extra{
+    margin-right: 110px;
 }
 
 /* The End */
