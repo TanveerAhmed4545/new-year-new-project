@@ -13,8 +13,8 @@
 /* Header Banner styles */
 
 .banner-container {
-    width: 80%;
-    height: 500px;
+    width: 85%;
+    height: 550px;
     margin: 50px auto 100px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Banner\ Image.png");
     background-position: center;
@@ -91,12 +91,12 @@
 /* Party Section styles */
 
 .party {
-    width: 80%;
+    width: 85%;
     margin: 100px auto;
 }
 
 .party-container {
-    height: 540px;
+    height: 550px;
     background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../images/Vectorrr.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -157,7 +157,7 @@
 
 .address-container {
     border-radius: 16px;
-    width: 80%;
+    width: 85%;
     margin: 0px auto;
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
     height: 450px;
@@ -215,7 +215,7 @@
 /* Best offer section */
 
 .best-offer {
-    width: 80%;
+    width: 85%;
     margin: 100px auto;
 }
 
@@ -308,11 +308,83 @@
 
 /* Holiday sale section */
 
+.holiday-container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.holiday-text-area {
+    text-align: center;
+}
+
+.holiday-heading-one {
+    color: #070211;
+    font-family: inter;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 14px;
+}
+
+.holiday-heading-two {
+    color: #070211;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.holiday-para {
+    color: #807D85;
+    font-family: inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    
+}
+
+.holiday-span {
+    color: #F00;
+}
+
+.holiday-img-area{
+    width: 100%;
+    height: 400px;
+    text-align: right;
+    margin-top: 60px ;
+    position: relative;
+}
+.holiday-img{
+    width: 400px;
+    height: 100%;
+}
+
+.holiday-circle-img{
+    position: absolute;
+    right: 31%;
+    width: 180px;
+    top: 20%;
+}
+.holiday-color-area{
+    width: 100%;
+    height: 220px;
+    background-image: url("../images/Rectangle\ 2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px 0px 16px 16px;
+    position: relative;
+}
+
+.holiday-color-area-img{
+    position: absolute;
+    bottom: 31%;
+    width: 550px;
+    height: 550px;
+}
+
 
 /* portfolio section */
 
 .portfolio-container {
-    width: 80%;
+    width: 85%;
     margin: 100px auto;
 }
 
@@ -337,7 +409,7 @@
 
 /* Newsletter section styles */
 .newsletter-container {
-    width: 80%;
+    width: 85%;
     margin: 0 auto 100px;
     text-align: center;
     background: rgba(255, 0, 0, 0.05);
@@ -381,7 +453,7 @@
 }
 
 .footer-container {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     padding: 100px 0;
 }
@@ -399,7 +471,7 @@
 .footer-sec-fir-para {
     color: #FFF;
     font-family: inter;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 30px;
 }
@@ -407,26 +479,29 @@
 .footer-img-sec-colum {
     width: 18px;
     margin: 8px 14px 0 0;
-    
+
 }
 
-.footer-hr{
-    color: rgba(255, 255, 255, 0.15);
+.footer-hr {
+    color: rgba(255, 255, 255, 0.5);
     height: 1px;
     margin: 50px 0;
 }
 
-.footer-section-third{
+.footer-section-third {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.footer-section-second-img{
+.footer-section-second-img {
     width: 60px;
     height: 60px;
+    margin-right: 22px;
 }
 
-.footer-section-second{
+.footer-section-second {
     text-align: center;
 }
+
+/* The End */
